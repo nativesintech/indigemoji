@@ -4,6 +4,8 @@ Indigemoji is a collection of indigenous flags and important symbols intended fo
 
 This is an a work in progress and will improve with contributions! The current emojiset are only the flags of North American indigenous nations, tribes, and other organizations found on Wikipedia - so lots of info is bound to be missing.
 
+**To keep the repo size down, I've excluded the Source images - but you can pull full-sized images and flags using the URLs in `sources`**
+
 ## Installing on Slack
 - Get the emoji files by downloading this [zip file](https://github.com/nativesintech/indigemoji/releases/download/1.0.0/1.0.0.zip) or cloning the directory using git.
 - Install the browser extension [Neutral Face Emoji Tools](https://github.com/Fauntleroy/neutral-face-emoji-tools) for Chrome or Firefox
