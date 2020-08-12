@@ -1,0 +1,80 @@
+[
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_Haida.svg",
+    "title": "Haida",
+    "slug": "haida",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Musqueam_flag.png",
+    "title": "Musqueam Indian Band",
+    "slug": "musqueam-indian-band",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Bandera_Nis%27ga_Nation.png",
+    "title": "Nisga'a",
+    "slug": "nisgaa",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Bandera_Sechelt.png",
+    "title": "Shishalh",
+    "slug": "shishalh",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Bandera_Red_Earth_Cree.PNG",
+    "title": "Red Earth Cree Nation",
+    "slug": "red-earth-cree-nation",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Temagama_Ojibwa.png",
+    "title": "Ojibway",
+    "slug": "ojibway",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Mikmaq_State_Flag.svg",
+    "title": "Mi'kmaq people",
+    "slug": "mikmaq-people",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Matimekush_Lac_John_Band_(Innu-Montagnais_Nation),_Quebec.gif",
+    "title": "Innu-Montagnais Nation Matimekush Lac John Band",
+    "slug": "innu-montagnais-nation-matimekush-lac-john-band",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_Eel_Ground_First_Nation.svg",
+    "title": "Natuaqanek",
+    "slug": "natuaqanek",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_Nunavut.svg",
+    "title": "Flag of Nunavut",
+    "slug": "of-nunavut",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_Nunatsiavut.svg",
+    "title": "Flag of Nunatsiavut",
+    "slug": "of-nunatsiavut",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Iroquois_Confederacy.svg",
+    "title": "Iroquois Confederacy",
+    "slug": "iroquois-confederacy",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Anishinabe.svg",
+    "title": "Anishinaabe",
+    "slug": "anishinaabe",
+    "prefix": "flag-"
+  }
+]
