@@ -1,0 +1,19 @@
+{
+  "name": "indigemoji",
+  "version": "1.0.0",
+  "description": "A collection of indigenous and native related emoji for Slack and scripts for scraping and resizing them",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scrape": ""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3",
+    "glob": "^7.1.6",
+    "sharp": "^0.25.4",
+    "svgo": "^1.3.2"
+  }
+}
