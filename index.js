@@ -8,8 +8,10 @@ const slug = require('slug')
 const url = require('url')
 const SVGO = require('svgo')
 
-const US_URL = 'https://commons.wikimedia.org/wiki/Flags_of_Native_Americans_in_the_United_States'
-const CA_URL = 'https://commons.wikimedia.org/wiki/Flags_of_Aboriginal_peoples_of_Canada'
+const US_URL =
+  'https://commons.wikimedia.org/wiki/Flags_of_Native_Americans_in_the_United_States'
+const CA_URL =
+  'https://commons.wikimedia.org/wiki/Flags_of_Aboriginal_peoples_of_Canada'
 
 const MAX_FILE_SIZE = 64000
 const MAX_WIDTH = 128
@@ -33,15 +35,13 @@ const scrape_wiki = async (url, path) => {
 
     let file_path = $img_a.attr('href').split('/wiki/File:')[1]
 
-    if ( file_path === 'Placeholderflag.png' ) return
+    if (file_path === 'Placeholderflag.png') return
 
     let title
     let link = $elem.find('tbody tr:nth-child(2) a:nth-child(1)')
 
-    if ( link.length ) {
-      title = link.attr('title')
-      .split(':')
-      .pop()
+    if (link.length) {
+      title = link.attr('title').split(':').pop()
     } else {
       title = $elem.find('tbody tr:nth-child(2)').text().split(',').shift()
     }
@@ -49,7 +49,7 @@ const scrape_wiki = async (url, path) => {
     const item = {
       img_src: `https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/${file_path}`,
       title: title,
-      slug: slug(title).replace('flag-',''),
+      slug: slug(title).replace('flag-', ''),
       prefix: 'flag-'
     }
 
@@ -60,14 +60,20 @@ const scrape_wiki = async (url, path) => {
 }
 
 const download_images = async () => {
-  let files = glob.sync("sources/*/*.json")
+  let files = glob.sync('sources/*/*.json')
   for (file of files) {
     let data = JSON.parse(fs.readFileSync(file))
 
     for (item of data) {
-      const response = await axios.get(item.img_src, { responseType: 'stream' })
-      const ext = path.extname(url.parse(response.request.res.responseUrl).pathname).toLowerCase()
-      const out_file = `unprocessed/${item.prefix || ''}${item.slug}${ext || ''}`
+      const response = await axios.get(item.img_src, {
+        responseType: 'stream'
+      })
+      const ext = path
+        .extname(url.parse(response.request.res.responseUrl).pathname)
+        .toLowerCase()
+      const out_file = `./unprocessed/${item.prefix || ''}${item.slug}${
+        ext || ''
+      }`
       const stream = fs.createWriteStream(out_file)
       response.data.pipe(stream)
 
@@ -82,17 +88,17 @@ const download_images = async () => {
 }
 
 const resize_images = async () => {
-  glob("unprocessed/*", {}, async (er, files) => {
+  glob('unprocessed/*', {}, async (er, files) => {
     for (file of files) {
       const ext = path.extname(file)
       const basename = path.basename(file).replace(ext, '')
       let quality = 1.0
 
-      try { 
+      try {
         let blob = await sharp(file).toBuffer()
 
         do {
-          console.log(basename, ext, file , quality)
+          console.log(basename, ext, file, quality)
           blob = await sharp(blob)
             .resize(MAX_WIDTH, MAX_HEIGHT, {
               fit: sharp.fit.inside,
@@ -100,13 +106,13 @@ const resize_images = async () => {
             })
             .sharpen()
             .png()
-          .toBuffer()
+            .toBuffer()
 
-          quality -= 0.05;
+          quality -= 0.05
         } while (quality > 0.4 && blob.size > MAX_FILE_SIZE)
 
         sharp(blob).toFile(`dist/${basename}.png`)
-      } catch ( e ) {
+      } catch (e) {
         console.log(`Error processing ${basename}: ${e}`)
       }
     }
