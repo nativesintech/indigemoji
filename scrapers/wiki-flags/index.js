@@ -50,12 +50,11 @@ const scrape_wiki = async (url, out_path) => {
   )
 }
 
-const scrape_wikis_by_id = async (ids=Object.keys(wiki_collection_urls)) => {
+const scrape_wikis_by_id = async (ids = Object.keys(wiki_collection_urls)) => {
   for (const id of ids) {
     const url = wiki_collection_urls[id]
     await scrape_wiki(url, id)
   }
 }
-
 
 module.exports = { scrape_wiki, scrape_wikis_by_id }
