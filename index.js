@@ -22,7 +22,7 @@ const download_images = async () => {
     for (item of data) {
       const response = await axios.get(item.img_src, { responseType: 'stream' })
       const ext = path.extname(url.parse(response.request.res.responseUrl).pathname).toLowerCase()
-      const out_file = `unprocessed/${item.prefix || ''}${item.slug}${ext || ''}`
+      const out_file = `unprocessed/${item.slug}${ext || ''}`
       const stream = fs.createWriteStream(out_file)
       response.data.pipe(stream)
 
@@ -78,13 +78,14 @@ require('yargs')
     await resize_images()
 
   })
-  .command('scrape wiki-flags', 'Scrape indigenous flag image-urls from wikipedia and download them.', (yargs) => {
+  .command('scrape wiki-flags', 'Scrape indigenous flag image URLs from wikipedia and write them to `data/`.', (yargs) => {
     const argv = yargs.option('id', {
       type: 'array',
       describe: 'List of space-separated IDs from `data/wiki-flags/collection-urls`.' +
                 'If no value is specified, all URLs will be scraped.',
     })
   }, argv => scrape_wikis_by_id(argv.ids))
-  .command('download', 'download images ')
+  .command('download', 'Download all images in the `data/` directory by URL to the `unprocessed/` directory.', download_images)
+  .command('resize', 'Resize all images in the `unprocessed/` and ouput them to the `dist/` directory.', download_images)
   .help()
   .argv

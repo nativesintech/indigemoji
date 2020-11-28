@@ -32,11 +32,13 @@ const scrape_wiki = async (url, out_path) => {
       title = $elem.find('tbody tr:nth-child(2)').text().split(',').shift()
     }
 
+    /* We remove "flag" and re-add it to avoid logic for items without the prefix */
+    const generatedSlug = slug(title).replace('flag-', '')
+
     const item = {
       img_src: `https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/${file_path}`,
       title: title,
-      slug: slug(title).replace('flag-', ''),
-      prefix: 'flag-'
+      slug: `flag-${generatedSlug}`
     }
 
     data.push(item)
