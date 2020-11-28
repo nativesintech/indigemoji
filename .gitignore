@@ -2,3 +2,4 @@ node_modules/
 # ignore files in unprocessed but keep the unprocessed folder for local dev
 unprocessed/*
 !unprocessed/.keep
+.DS_Store

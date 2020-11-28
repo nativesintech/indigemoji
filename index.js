@@ -1,5 +1,4 @@
 const axios = require('axios')
-const cheerio = require('cheerio')
 const glob = require('glob')
 const fs = require('fs')
 const path = require('path')
@@ -8,72 +7,24 @@ const slug = require('slug')
 const url = require('url')
 const SVGO = require('svgo')
 
-const US_URL =
-  'https://commons.wikimedia.org/wiki/Flags_of_Native_Americans_in_the_United_States'
-const CA_URL =
-  'https://commons.wikimedia.org/wiki/Flags_of_Aboriginal_peoples_of_Canada'
-
 const MAX_FILE_SIZE = 64000
 const MAX_WIDTH = 128
 const MAX_HEIGHT = 128
 const svgo = new SVGO()
 
-/*
-  This scraper makes a lot of possibly wrong assumptions, like that the
-  first link in a description is the tribe name.
-*/
-const scrape_wiki = async (url, path) => {
-  const response = await axios.get(url)
-  const $ = cheerio.load(response.data)
-
-  const $items = $('h3 ~ table td > table, h2 ~ table td > table')
-  const data = []
-
-  $items.each((i, elem) => {
-    let $elem = $(elem)
-    let $img_a = $elem.find('a.image')
-
-    let file_path = $img_a.attr('href').split('/wiki/File:')[1]
-
-    if (file_path === 'Placeholderflag.png') return
-
-    let title
-    let link = $elem.find('tbody tr:nth-child(2) a:nth-child(1)')
-
-    if (link.length) {
-      title = link.attr('title').split(':').pop()
-    } else {
-      title = $elem.find('tbody tr:nth-child(2)').text().split(',').shift()
-    }
-
-    const item = {
-      img_src: `https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/${file_path}`,
-      title: title,
-      slug: slug(title).replace('flag-', ''),
-      prefix: 'flag-'
-    }
-
-    data.push(item)
-  })
-
-  fs.writeFileSync(`sources/wiki/${path}.json`, JSON.stringify(data, null, 2))
-}
+const { scrape_wikis_by_id } = require('./scrapers/wiki-flags')
 
 const download_images = async () => {
-  let files = glob.sync('sources/*/*.json')
+  let files = glob.sync('data/*/*.json')
   for (file of files) {
     let data = JSON.parse(fs.readFileSync(file))
 
     for (item of data) {
-      const response = await axios.get(item.img_src, {
-        responseType: 'stream'
-      })
+      const response = await axios.get(item.img_src, { responseType: 'stream' })
       const ext = path
         .extname(url.parse(response.request.res.responseUrl).pathname)
         .toLowerCase()
-      const out_file = `./unprocessed/${item.prefix || ''}${item.slug}${
-        ext || ''
-      }`
+      const out_file = `unprocessed/${item.slug}${ext || ''}`
       const stream = fs.createWriteStream(out_file)
       response.data.pipe(stream)
 
@@ -119,12 +70,40 @@ const resize_images = async () => {
   })
 }
 
-const main = async () => {
-  await scrape_wiki(US_URL, 'us')
-  await scrape_wiki(CA_URL, 'ca')
-
-  await download_images()
-  await resize_images()
-}
-
-main()
+require('yargs')
+  .scriptName('indigemoji')
+  .usage('$0 <cmd> [args]')
+  .option('verbose', { type: 'boolean' })
+  .command(
+    'all',
+    'Perform all tasks (scraping, downloading, and processing images).',
+    async () => {
+      await scrape_wikis_by_id()
+      await download_images()
+      await resize_images()
+    }
+  )
+  .command(
+    'scrape wiki-flags',
+    'Scrape indigenous flag image URLs from wikipedia and write them to `data/`.',
+    (yargs) => {
+      const argv = yargs.option('id', {
+        type: 'array',
+        describe:
+          'List of space-separated IDs from `data/wiki-flags/collection-urls`.' +
+          'If no value is specified, all URLs will be scraped.'
+      })
+    },
+    (argv) => scrape_wikis_by_id(argv.ids)
+  )
+  .command(
+    'download',
+    'Download all images in the `data/` directory by URL to the `unprocessed/` directory.',
+    download_images
+  )
+  .command(
+    'resize',
+    'Resize all images in the `unprocessed/` and ouput them to the `dist/` directory.',
+    resize_images
+  )
+  .help().argv
