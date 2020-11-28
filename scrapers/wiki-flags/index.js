@@ -2,12 +2,12 @@ const axios = require('axios')
 const cheerio = require('cheerio')
 const slug = require('slug')
 const fs = require('fs')
+const wiki_collection_urls = require('./collection-urls.json')
 
 /* 
   Scrape a wikipedia page for flags. This scraper makes a lot of possibly wrong
   assumptions, like that the first link in a description is the tribe name.
 */
-
 const scrape_wiki = async (url, out_path) => {
   const response = await axios.get(url)
   const $ = cheerio.load(response.data)
@@ -48,4 +48,12 @@ const scrape_wiki = async (url, out_path) => {
   )
 }
 
-module.exports = { scrape_wiki }
+const scrape_wikis_by_id = async (ids=Object.keys(wiki_collection_urls)) => {
+  for (const id of ids) {
+    const url = wiki_collection_urls[id]
+    await scrape_wiki(url, id)
+  }
+}
+
+
+module.exports = { scrape_wiki, scrape_wikis_by_id }

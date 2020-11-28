@@ -12,8 +12,7 @@ const MAX_WIDTH = 128
 const MAX_HEIGHT = 128
 const svgo = new SVGO()
 
-const { scrape_wiki } = require('./scrapers/wiki-flags')
-const wiki_flags_collection_urls = require('./data/wiki-flags/collection-urls.json')
+const { scrape_wikis_by_id  } = require('./scrapers/wiki-flags')
 
 const download_images = async () => {
   let files = glob.sync("data/*/*.json")
@@ -69,12 +68,23 @@ const resize_images = async () => {
   })
 }
 
-const main = async () => {
-  for (const [id, url] of Object.entries(wiki_flags_collection_urls)) {
-    await scrape_wiki(url, id)
-  }
-  // await download_images()
-  // await resize_images()
-}
+require('yargs')
+  .scriptName("indigemoji")
+  .usage('$0 <cmd> [args]')
+  .option('verbose', { type: 'boolean' })
+  .command('all', 'Perform all tasks (scraping, downloading, and processing images).', async () => {
+    await scrape_wikis_by_id()
+    await download_images()
+    await resize_images()
 
-main()
+  })
+  .command('scrape wiki-flags', 'Scrape indigenous flag image-urls from wikipedia and download them.', (yargs) => {
+    const argv = yargs.option('id', {
+      type: 'array',
+      describe: 'List of space-separated IDs from `data/wiki-flags/collection-urls`.' +
+                'If no value is specified, all URLs will be scraped.',
+    })
+  }, argv => scrape_wikis_by_id(argv.ids))
+  .command('download', 'download images ')
+  .help()
+  .argv
