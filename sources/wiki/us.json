@@ -6,6 +6,48 @@
     "prefix": "flag-"
   },
   {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Chilkat_Indian_Village.PNG",
+    "title": "Chilkat Indian Village (Klukwan)",
+    "slug": "chilkat-indian-village-klukwan",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Organized_Village_of_Kake.PNG",
+    "title": "Organized Village of Kake",
+    "slug": "organized-village-of-kake",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Ketchikan_Indian_Community.PNG",
+    "title": "Ketchikan Indian Corporation",
+    "slug": "ketchikan-indian-corporation",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Central_Council_of_the_Tlingit_and_Haida_Indian_Tribes_of_Alaska_arms.png",
+    "title": "Central Council of the Tlingit & Haida Indian Tribes",
+    "slug": "central-council-of-the-tlingit-haida-indian-tribes",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Ak-Chin_Indian_Community.png",
+    "title": "Ak-Chin Indian Community",
+    "slug": "ak-chin-indian-community",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Colorado_River_Indian_Tribes.PNG",
+    "title": "Colorado River Indian Tribes",
+    "slug": "colorado-river-indian-tribes",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Gila_River_Indian_Community.png",
+    "title": "Gila River Indian Community",
+    "slug": "gila-river-indian-community",
+    "prefix": "flag-"
+  },
+  {
     "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Hopi.png",
     "title": "Hopi Nation",
     "slug": "hopi-nation",
@@ -18,9 +60,63 @@
     "prefix": "flag-"
   },
   {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Pascua_Yaqui_Tribe_of_Arizona.PNG",
+    "title": "Pascua Yaqui Tribe",
+    "slug": "pascua-yaqui-tribe",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Salt_River_Pima-Maricopa_Indian_Community.PNG",
+    "title": "Salt River Pima–Maricopa Indian Community",
+    "slug": "salt-river-pimamaricopa-indian-community",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_San_Carlos_Apache_Tribe.PNG",
+    "title": "San Carlos Apache Indian Reservation",
+    "slug": "san-carlos-apache-indian-reservation",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_San_Juan_Southern_Paiute_Tribe.PNG",
+    "title": "San Juan Southern Paiute Tribe of Arizona",
+    "slug": "san-juan-southern-paiute-tribe-of-arizona",
+    "prefix": "flag-"
+  },
+  {
     "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/TohonoOOdhamNationflag.png",
     "title": "Tohono O'odham Nation",
     "slug": "tohono-oodham-nation",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Tonto_Apache_Tribe.png",
+    "title": "Tonto Apache",
+    "slug": "tonto-apache",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Yavapai-Apache_Nation.PNG",
+    "title": "Yavapai-Apache Nation",
+    "slug": "yavapai-apache-nation",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Yavapai-Prescott_Tribe.svg",
+    "title": "Yavapai-Prescott Indian Tribe",
+    "slug": "yavapai-prescott-indian-tribe",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Augustine_Band_of_Cahuilla_Mission_Indians.PNG",
+    "title": "Augustine Band of Cahuilla Indians",
+    "slug": "augustine-band-of-cahuilla-indians",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Cahto_flag.jpg",
+    "title": "Cahto",
+    "slug": "cahto",
     "prefix": "flag-"
   },
   {
@@ -30,21 +126,93 @@
     "prefix": "flag-"
   },
   {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Viejas_Band_of_Kumeyaay_Indians.PNG",
+    "title": "Viejas Group of Capitan Grande Band of Mission Indians",
+    "slug": "viejas-group-of-capitan-grande-band-of-mission-indians",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Chemehuevi_Indian_Tribe.PNG",
+    "title": "Chemehuevi Indian Tribe of the Chemehuevi Reservation",
+    "slug": "chemehuevi-indian-tribe-of-the-chemehuevi-reservation",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Colorado_River_Indian_Tribes.PNG",
+    "title": "Colorado River Indian Tribes",
+    "slug": "colorado-river-indian-tribes",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Coyote_Valley_Tribe.PNG",
+    "title": "Coyote Valley Band of Pomo Indians of California",
+    "slug": "coyote-valley-band-of-pomo-indians-of-california",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Inaja-Cosmit_Band_of_Indians.PNG",
+    "title": "Inaja Band of Diegueño Mission Indians of the Inaja and Cosmit Reservation",
+    "slug": "inaja-band-of-diegueno-mission-indians-of-the-inaja-and-cosmit-reservation",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Karuk_Tribe_of_California.PNG",
+    "title": "Karuk Tribe",
+    "slug": "karuk-tribe",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_La_Jolla_Band_of_Luise%C3%B1o_Indians.PNG",
+    "title": "La Jolla Band of Luiseno Indians",
+    "slug": "la-jolla-band-of-luiseno-indians",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_La_Posta_Band_of_Mission_Indians.PNG",
+    "title": "La Posta Band of Diegueño Mission Indians of the La Posta Indian Reservation",
+    "slug": "la-posta-band-of-diegueno-mission-indians-of-the-la-posta-indian-reservation",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Mesa_Grande_Band_of_Mission_Indians.PNG",
+    "title": "Mesa Grande Band of Diegueño Mission Indians of the Mesa Grande Reservation",
+    "slug": "mesa-grande-band-of-diegueno-mission-indians-of-the-mesa-grande-reservation",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Pala_Band_of_Cupe%C3%B1o_Indians.PNG",
+    "title": "Pala Band of Luiseño Mission Indians of the Pala Reservation",
+    "slug": "pala-band-of-luiseno-mission-indians-of-the-pala-reservation",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Luise%C3%B1o_Band_of_Pauma-Yuima_Mission_Indians.PNG",
+    "title": "Pauma Band of Luiseno Mission Indians",
+    "slug": "pauma-band-of-luiseno-mission-indians",
+    "prefix": "flag-"
+  },
+  {
     "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Robinson_Rancheria.svg",
     "title": "Robinson Rancheria of Pomo Indians of California",
     "slug": "robinson-rancheria-of-pomo-indians-of-california",
     "prefix": "flag-"
   },
   {
-    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Bandera_Washo.png",
-    "title": "Washoe Tribe",
-    "slug": "washoe-tribe",
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Soboba_Band_of_Luise%C3%B1o_Indians.PNG",
+    "title": "Soboba Band of Luiseño Indians",
+    "slug": "soboba-band-of-luiseno-indians",
     "prefix": "flag-"
   },
   {
-    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Cahto_flag.jpg",
-    "title": "Cahto Tribe",
-    "slug": "cahto-tribe",
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_United_Auburn_Indian_Community_of_the_Auburn_Rancheria.PNG",
+    "title": "United Auburn Indian Community of the Auburn Rancheria of California",
+    "slug": "united-auburn-indian-community-of-the-auburn-rancheria-of-california",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Bandera_Washo.png",
+    "title": "Washoe Tribe",
+    "slug": "washoe-tribe",
     "prefix": "flag-"
   },
   {
@@ -90,9 +258,21 @@
     "prefix": "flag-"
   },
   {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Iowa_Tribe_of_Kansas_%26_Nebraska.PNG",
+    "title": "Iowa Tribe of Kansas and Nebraska",
+    "slug": "iowa-tribe-of-kansas-and-nebraska",
+    "prefix": "flag-"
+  },
+  {
     "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Kickapoo_Ttribe_in_Kansas.PNG",
     "title": "Kickapoo Tribe of Indians of the Kickapoo Reservation in Kansas",
     "slug": "kickapoo-tribe-of-indians-of-the-kickapoo-reservation-in-kansas",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Sac_%26_Fox_Nation_of_the_Missouri_in_Kansas_%26_Nebraska.PNG",
+    "title": "Sac and Fox Nation of Missouri in Kansas and Nebraska",
+    "slug": "sac-and-fox-nation-of-missouri-in-kansas-and-nebraska",
     "prefix": "flag-"
   },
   {
@@ -133,14 +313,62 @@
   },
   {
     "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Bay_Mills_Indian_Community_Flag.svg",
-    "title": "Bay Mills Indian Community (page does not exist)",
-    "slug": "bay-mills-indian-community-page-does-not-exist",
+    "title": "Bay Mills Indian Community",
+    "slug": "bay-mills-indian-community",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Grand_Traverse_Band_of_Ottawa_%26_Chippewa_Indians_of_Michigan.PNG",
+    "title": "Grand Traverse Band of Ottawa and Chippewa Indians",
+    "slug": "grand-traverse-band-of-ottawa-and-chippewa-indians",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Nottawaseppi_Huron_Band_of_Potawatomi_Indians.PNG",
+    "title": "Nottawaseppi Huron Band of Potawatomi",
+    "slug": "nottawaseppi-huron-band-of-potawatomi",
     "prefix": "flag-"
   },
   {
     "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Keweenaw_Bay_Indian_Community_L%27Anse_Indian_Reservation_flag.svg",
-    "title": "Keweenaw Bay Indian Community (page does not exist)",
-    "slug": "keweenaw-bay-indian-community-page-does-not-exist",
+    "title": "Keweenaw Bay Indian Community",
+    "slug": "keweenaw-bay-indian-community",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Lac_Vieux_Desert_Band_of_Lake_Superior_Chippewa_Indians.PNG",
+    "title": "Lac Vieux Desert Band of Lake Superior Chippewa",
+    "slug": "lac-vieux-desert-band-of-lake-superior-chippewa",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Little_River_Band_of_Ottawa_Indians.PNG",
+    "title": "Little River Band of Ottawa Indians",
+    "slug": "little-river-band-of-ottawa-indians",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Little_Traverse_Bay_Bands_of_Odawa_Indians.PNG",
+    "title": "Little Traverse Bay Bands of Odawa Indians",
+    "slug": "little-traverse-bay-bands-of-odawa-indians",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Saginaw_Chippewa_Indian_Tribe_of_Michigan.PNG",
+    "title": "Saginaw Chippewa Tribal Nation",
+    "slug": "saginaw-chippewa-tribal-nation",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Sault_Ste_Marie_Tribe_of_Chippewa_Indians_of_Michigan.PNG",
+    "title": "Sault Tribe of Chippewa Indians",
+    "slug": "sault-tribe-of-chippewa-indians",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Lower_Sioux_Indian_Community.png",
+    "title": "Lower Sioux Indian Reservation",
+    "slug": "lower-sioux-indian-reservation",
     "prefix": "flag-"
   },
   {
@@ -150,9 +378,21 @@
     "prefix": "flag-"
   },
   {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Bois_Forte_Band_of_Chippewa_Indians.PNG",
+    "title": "Bois Forte Band of Chippewa",
+    "slug": "bois-forte-band-of-chippewa",
+    "prefix": "flag-"
+  },
+  {
     "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Bandera_Fond_du_Lac.png",
     "title": "Fond du Lac Indian Reservation",
     "slug": "fond-du-lac-indian-reservation",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Grand_Portage_Band_of_Chippewa.PNG",
+    "title": "Grand Portage Indian Reservation",
+    "slug": "grand-portage-indian-reservation",
     "prefix": "flag-"
   },
   {
@@ -165,6 +405,18 @@
     "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Mille_Lacs_Band_of_Ojibwe.PNG",
     "title": "Mille Lacs Indian Reservation",
     "slug": "mille-lacs-indian-reservation",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Shakopee_Mdewakanton_Dakota_Community.png",
+    "title": "Shakopee Mdewakanton Sioux Community",
+    "slug": "shakopee-mdewakanton-sioux-community",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Upper_Sioux_Community.png",
+    "title": "Upper Sioux Indian Reservation",
+    "slug": "upper-sioux-indian-reservation",
     "prefix": "flag-"
   },
   {
@@ -186,9 +438,21 @@
     "prefix": "flag-"
   },
   {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Bandera_Crow.png",
+    "title": "Crow Tribe",
+    "slug": "crow-tribe",
+    "prefix": "flag-"
+  },
+  {
     "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Fort_Belknap_Indian_Community.PNG",
     "title": "Fort Belknap Indian Community of the Fort Belknap Reservation of Montana",
     "slug": "fort-belknap-indian-community-of-the-fort-belknap-reservation-of-montana",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Little_Shell_Chippewa_of_Montana_%26_South_Dakota.PNG",
+    "title": "Cheyenne",
+    "slug": "cheyenne",
     "prefix": "flag-"
   },
   {
@@ -198,9 +462,57 @@
     "prefix": "flag-"
   },
   {
-    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Bandera_Crow.png",
-    "title": "Crow Tribe",
-    "slug": "crow-tribe",
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Iowa_Tribe_of_Kansas_%26_Nebraska.PNG",
+    "title": "Iowa Tribe of Kansas and Nebraska",
+    "slug": "iowa-tribe-of-kansas-and-nebraska",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Ponca_Tribe_of_Nebraska.PNG",
+    "title": "Ponca",
+    "slug": "ponca",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Omaha_Tribe_of_Nebraska_%26_Iowa.PNG",
+    "title": "Omaha people",
+    "slug": "omaha-people",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Sac_%26_Fox_Nation_of_the_Missouri_in_Kansas_%26_Nebraska.PNG",
+    "title": "Sac and Fox Nation of Missouri in Kansas and Nebraska",
+    "slug": "sac-and-fox-nation-of-missouri-in-kansas-and-nebraska",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Winnebago_Tribe_of_Nebraska.PNG",
+    "title": "Winnebago Tribe of Nebraska",
+    "slug": "winnebago-tribe-of-nebraska",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Las_Vegas_Paiute_Tribe.PNG",
+    "title": "Las Vegas Tribe of Paiute Indians of the Las Vegas Indian Colony",
+    "slug": "las-vegas-tribe-of-paiute-indians-of-the-las-vegas-indian-colony",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Moapa_Band_of_Paiutes.PNG",
+    "title": "Moapa Band of Paiute Indians",
+    "slug": "moapa-band-of-paiute-indians",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Reno-Sparks_Indian_Colony.png",
+    "title": "Reno-Sparks Indian Colony",
+    "slug": "reno-sparks-indian-colony",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Te-Moak_Tribe_of_Western_Shoshone_Indians_of_Nevada.PNG",
+    "title": "Te-Moak Tribe of Western Shoshone Indians of Nevada",
+    "slug": "te-moak-tribe-of-western-shoshone-indians-of-nevada",
     "prefix": "flag-"
   },
   {
@@ -210,21 +522,45 @@
     "prefix": "flag-"
   },
   {
-    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Bandera_de_Cochiti.png",
-    "title": "Cochiti Pueblo",
-    "slug": "cochiti-pueblo",
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Yerington_Paiute_Tribe.PNG",
+    "title": "Yerington Paiute Tribe of the Yerington Colony and Campbell Ranch",
+    "slug": "yerington-paiute-tribe-of-the-yerington-colony-and-campbell-ranch",
     "prefix": "flag-"
   },
   {
-    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Bandera_dels_Laguna.png",
-    "title": "Laguna Pueblo",
-    "slug": "laguna-pueblo",
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Mescalero_Apache_Tribe.PNG",
+    "title": "Mescalero",
+    "slug": "mescalero",
     "prefix": "flag-"
   },
   {
     "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Navajo_flag.svg",
     "title": "Navajo Nation",
     "slug": "navajo-nation",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Pueblo_of_Acoma.PNG",
+    "title": "Acoma Pueblo",
+    "slug": "acoma-pueblo",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Bandera_de_Cochiti.png",
+    "title": "Cochiti Pueblo",
+    "slug": "cochiti-pueblo",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Pueblo_of_Isleta.PNG",
+    "title": "Pueblo of Isleta",
+    "slug": "pueblo-of-isleta",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Bandera_dels_Laguna.png",
+    "title": "Laguna Pueblo",
+    "slug": "laguna-pueblo",
     "prefix": "flag-"
   },
   {
@@ -240,6 +576,12 @@
     "prefix": "flag-"
   },
   {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Pueblo_of_Tesuque.PNG",
+    "title": "Tesuque Pueblo, New Mexico",
+    "slug": "tesuque-pueblo-new-mexico",
+    "prefix": "flag-"
+  },
+  {
     "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Pueblo_of_Zia.PNG",
     "title": "Zia Pueblo, New Mexico",
     "slug": "zia-pueblo-new-mexico",
@@ -252,15 +594,45 @@
     "prefix": "flag-"
   },
   {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Cayuga_Nation_of_New_York.PNG",
+    "title": "Cayuga Nation of New York",
+    "slug": "cayuga-nation-of-new-york",
+    "prefix": "flag-"
+  },
+  {
     "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Bandera_Oneida.PNG",
     "title": "Oneida Nation",
     "slug": "oneida-nation",
     "prefix": "flag-"
   },
   {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Onondaga_Nation_of_New_York.PNG",
+    "title": "Onondaga people",
+    "slug": "onondaga-people",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_St_Regis_Mohawk_Tribe.PNG",
+    "title": "St. Regis Mohawk Reservation",
+    "slug": "st-regis-mohawk-reservation",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Tuscarora_Nation_of_New_York.PNG",
+    "title": "Tuscarora people",
+    "slug": "tuscarora-people",
+    "prefix": "flag-"
+  },
+  {
     "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Eastern_Band_Cherokee_Flag.svg",
     "title": "Eastern Band of Cherokee Indians",
     "slug": "eastern-band-of-cherokee-indians",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Spirit_Lake_Tribe.png",
+    "title": "Spirit Lake Tribe",
+    "slug": "spirit-lake-tribe",
     "prefix": "flag-"
   },
   {
@@ -324,6 +696,30 @@
     "prefix": "flag-"
   },
   {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Delaware_Tribe_of_Western_Oklahoma.png",
+    "title": "Delaware Nation",
+    "slug": "delaware-nation",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Delaware_Tribe_of_Indians.PNG",
+    "title": "Delaware Tribe of Indians",
+    "slug": "delaware-tribe-of-indians",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Eastern_shawnee_flag.jpg",
+    "title": "Eastern Shawnee Tribe of Oklahoma",
+    "slug": "eastern-shawnee-tribe-of-oklahoma",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Iowa_Tribe_of_Oklahoma.png",
+    "title": "Iowa Tribe of Oklahoma",
+    "slug": "iowa-tribe-of-oklahoma",
+    "prefix": "flag-"
+  },
+  {
     "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Kialegee_flag.jpg",
     "title": "Kialegee Tribal Town",
     "slug": "kialegee-tribal-town",
@@ -384,27 +780,39 @@
     "prefix": "flag-"
   },
   {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Ponca_Tribe_of_Oklahoma.png",
+    "title": "Ponca",
+    "slug": "ponca",
+    "prefix": "flag-"
+  },
+  {
     "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Bandera_quapaw.png",
     "title": "Quapaw",
     "slug": "quapaw",
     "prefix": "flag-"
   },
   {
-    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Sac_and_Fox_Nation.svg",
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Sac_%26_Fox_Nation_of_Oklahoma.PNG",
     "title": "Sac and Fox",
     "slug": "sac-and-fox",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Seminole_Nation_of_Oklahoma.PNG",
+    "title": "Seminole Nation of Oklahoma",
+    "slug": "seminole-nation-of-oklahoma",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Seneca-Cayuga_Tribe_of_Oklahoma.PNG",
+    "title": "Seneca–Cayuga Nation",
+    "slug": "senecacayuga-nation",
     "prefix": "flag-"
   },
   {
     "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_The_Shawnee_Tribe_of_Oklahoma.svg",
     "title": "Shawnee Tribe",
     "slug": "shawnee-tribe",
-    "prefix": "flag-"
-  },
-  {
-    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Eastern_shawnee_flag.jpg",
-    "title": "Eastern Shawnee Tribe of Oklahoma",
-    "slug": "eastern-shawnee-tribe-of-oklahoma",
     "prefix": "flag-"
   },
   {
@@ -417,6 +825,12 @@
     "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Tonkawa_Tribe_of_Oklahoma.png",
     "title": "Tonkawa",
     "slug": "tonkawa",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_United_Keetoowah_Band_of_Cherokee_Indians.PNG",
+    "title": "United Keetoowah Band of Cherokee Indians",
+    "slug": "united-keetoowah-band-of-cherokee-indians",
     "prefix": "flag-"
   },
   {
@@ -438,6 +852,18 @@
     "prefix": "flag-"
   },
   {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Confederated_Tribes_of_the_Coos,_Lower_Umpqua_%26_Siuslaw_Indians.png",
+    "title": "Confederated Tribes of Coos, Lower Umpqua and Siuslaw Indians",
+    "slug": "confederated-tribes-of-coos-lower-umpqua-and-siuslaw-indians",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Cow_Creek_Band_of_the_Umpqua_Tribe_of_Indians.PNG",
+    "title": "Cow Creek Band of Umpqua Tribe of Indians",
+    "slug": "cow-creek-band-of-umpqua-tribe-of-indians",
+    "prefix": "flag-"
+  },
+  {
     "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Bandera_Narragansett.PNG",
     "title": "Narragansett Indian Tribe",
     "slug": "narragansett-indian-tribe",
@@ -447,6 +873,12 @@
     "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Cheyenne_River_Sioux_Tribe.PNG",
     "title": "Cheyenne River Sioux Tribe",
     "slug": "cheyenne-river-sioux-tribe",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Crow_Creek_Flag.svg",
+    "title": "Crow Creek Indian Reservation",
+    "slug": "crow-creek-indian-reservation",
     "prefix": "flag-"
   },
   {
@@ -474,6 +906,12 @@
     "prefix": "flag-"
   },
   {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Alabama-Coushatta_Tribe_of_Texas.PNG",
+    "title": "Alabama–Coushatta Tribe of Texas",
+    "slug": "alabamacoushatta-tribe-of-texas",
+    "prefix": "flag-"
+  },
+  {
     "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Navajo_flag.svg",
     "title": "Navajo Nation",
     "slug": "navajo-nation",
@@ -483,6 +921,48 @@
     "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Ute_Indian_Tribe_of_the_Uintah_%26_Ouray_Reservation.png",
     "title": "Ute Indian Tribe",
     "slug": "ute-indian-tribe",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Paiute_Indian_Tribe_of_Utah.png",
+    "title": "Paiute Indian Tribe of Utah",
+    "slug": "paiute-indian-tribe-of-utah",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Skull_Valley_Band_of_Goshute.png",
+    "title": "Skull Valley Indian Reservation",
+    "slug": "skull-valley-indian-reservation",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Chickahominy_Tribe.PNG",
+    "title": "Chickahominy",
+    "slug": "chickahominy",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Confederated_Tribes_of_the_Chehalis_Reservation.PNG",
+    "title": "Confederated Tribes of the Chehalis Reservation",
+    "slug": "confederated-tribes-of-the-chehalis-reservation",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Cowlitz_Indian_Tribe.PNG",
+    "title": "Cowlitz Indian Tribe",
+    "slug": "cowlitz-indian-tribe",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Snohomish_Tribe_of_Indians.PNG",
+    "title": "Snohomish people",
+    "slug": "snohomish-people",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Squaxin_Island_Indian_Tribe.PNG",
+    "title": "Squaxin Island Tribe",
+    "slug": "squaxin-island-tribe",
     "prefix": "flag-"
   },
   {
@@ -534,9 +1014,111 @@
     "prefix": "flag-"
   },
   {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Swinomish_Indian_Tribal_Community.PNG",
+    "title": "Swinomish Indians of the Swinomish Reservation of Washington",
+    "slug": "swinomish-indians-of-the-swinomish-reservation-of-washington",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Lummi_Nation.png",
+    "title": "Lummi",
+    "slug": "lummi",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Muckleshoot_Indian_Tribe.PNG",
+    "title": "Muckleshoot",
+    "slug": "muckleshoot",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Quileute_Tribe.PNG",
+    "title": "Quileute",
+    "slug": "quileute",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Sauk-Suiattle_Indian_Tribe.PNG",
+    "title": "Sauk-Suiattle Indian Tribe of Washington",
+    "slug": "sauk-suiattle-indian-tribe-of-washington",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Shoalwater_Bay_Tribe.PNG",
+    "title": "Shoalwater Bay Tribe",
+    "slug": "shoalwater-bay-tribe",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Port_Gamble_S%27Klallam_Nation.PNG",
+    "title": "Port Gamble Band of S'Klallam Indians",
+    "slug": "port-gamble-band-of-sklallam-indians",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Lower_Elwha_Klallam_Tribe.PNG",
+    "title": "Lower Elwha Klallam Tribe",
+    "slug": "lower-elwha-klallam-tribe",
+    "prefix": "flag-"
+  },
+  {
     "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_Ho-chunk.png",
     "title": "Ho-Chunk",
     "slug": "ho-chunk",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Lac_Courte_Oreilles_Band_of_Lake_Superior_Chippewa_Indians.PNG",
+    "title": "Lac Courte Oreilles Band of Lake Superior Chippewa Indians",
+    "slug": "lac-courte-oreilles-band-of-lake-superior-chippewa-indians",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Sokaogon_Chippewa_Community.PNG",
+    "title": "Sokaogon Chippewa Community",
+    "slug": "sokaogon-chippewa-community",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Lac_du_Flambeau_Ojibwe_Nation.PNG",
+    "title": "Lac du Flambeau Band of Lake Superior Chippewa",
+    "slug": "lac-du-flambeau-band-of-lake-superior-chippewa",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Red_Cliff_Band_of_Lake_Superior_Chippewa_Indians_of_Wisconsin.PNG",
+    "title": "Red Cliff Band of Lake Superior Chippewa",
+    "slug": "red-cliff-band-of-lake-superior-chippewa",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_St_Croix_Chippewa_Indians_of_Wisconsin.PNG",
+    "title": "St. Croix Chippewa Indians of Wisconsin",
+    "slug": "st-croix-chippewa-indians-of-wisconsin",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Menominee_Nation.png",
+    "title": "Menominee",
+    "slug": "menominee",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Forest_County_Potawatomi_Nation.png",
+    "title": "Forest County Potawatomi Community",
+    "slug": "forest-county-potawatomi-community",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Oneida_Nation_of_Wisconsin.PNG",
+    "title": "Oneida Nation of Wisconsin",
+    "slug": "oneida-nation-of-wisconsin",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Bandera_Fond_du_Lac.png",
+    "title": "Fond du Lac Indian Reservation",
+    "slug": "fond-du-lac-indian-reservation",
     "prefix": "flag-"
   },
   {
@@ -609,6 +1191,12 @@
     "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Jatibonicu_Taino_Tribal_Nation.svg",
     "title": "Taíno people",
     "slug": "taino-people",
+    "prefix": "flag-"
+  },
+  {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_Siwanoy_nation.png",
+    "title": "Siwanoy",
+    "slug": "siwanoy",
     "prefix": "flag-"
   },
   {

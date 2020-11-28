@@ -54,6 +54,12 @@
     "prefix": "flag-"
   },
   {
+    "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_the_Siksika_Nation.png",
+    "title": "Siksika Nation",
+    "slug": "siksika-nation",
+    "prefix": "flag-"
+  },
+  {
     "img_src": "https://www.mediawiki.org/w/index.php?title=Special:Redirect/file/Flag_of_Nunavut.svg",
     "title": "Flag of Nunavut",
     "slug": "of-nunavut",
