@@ -104,6 +104,6 @@ require('yargs')
   .command(
     'resize',
     'Resize all images in the `unprocessed/` and ouput them to the `dist/` directory.',
-    download_images
+    resize_images
   )
   .help().argv
