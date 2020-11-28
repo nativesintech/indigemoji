@@ -10,7 +10,7 @@ const SVGO = require('svgo')
 const MAX_FILE_SIZE = 64000
 const MAX_WIDTH = 128
 const MAX_HEIGHT = 128
-const svgo = new SVGO();
+const svgo = new SVGO()
 
 const { scrape_wikis_by_id } = require('./scrapers/wiki-flags')
 
