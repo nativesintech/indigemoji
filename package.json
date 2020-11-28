@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "scrape": ""
+    "scrape": "",
+    "format": "npx prettier --write ./**/*.js"
   },
   "author": "",
   "license": "ISC",
@@ -16,5 +17,8 @@
     "sharp": "^0.25.4",
     "slug": "^4.0.2",
     "svgo": "^1.3.2"
+  },
+  "devDependencies": {
+    "prettier": "2.2.1"
   }
 }
