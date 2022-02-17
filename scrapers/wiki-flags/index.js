@@ -19,6 +19,9 @@ const scrape_wiki = async (url, out_path) => {
     let $elem = $(elem)
     let $img_a = $elem.find('a.image')
 
+    
+    if($img_a.attr('href') === undefined) return
+    
     let file_path = $img_a.attr('href').split('/wiki/File:')[1]
 
     if (file_path === 'Placeholderflag.png') return
