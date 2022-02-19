@@ -1,4 +1,10 @@
-[{
-  "img_src": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Ej%C3%A9rcito_Zapatista_de_Liberaci%C3%B3n_Nacional%2C_Flag.svg",
-  "slug": "flag-ezln"
-}]
+[
+  {
+    "img_src": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Ej%C3%A9rcito_Zapatista_de_Liberaci%C3%B3n_Nacional%2C_Flag.svg",
+    "slug": "flag-ezln"
+  },
+  {
+    "img_src": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Medicine-Wheel.png",
+    "slug": "medicine-wheel"
+  }
+]
